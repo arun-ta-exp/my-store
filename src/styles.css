@@ -1,14 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-image: linear-gradient(45deg,rgb(69, 16, 225),rgb(255, 136, 0));
+    background-image: linear-gradient(45deg,rgb(53, 104, 224),black);
 }
 .wrapper{
     margin-top: 20px;
     padding: 0px;
 }
 .bg-dark{
-    background-image: linear-gradient(red,black);
+    background-image: linear-gradient(rgb(0, 204, 255),black);
+}
+.card a:hover{
+    background-color: orangered;
+    color: black;
+    
+    
 }
 footer{
 padding: 10px;
+color: gold;
 }
