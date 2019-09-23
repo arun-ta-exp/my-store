@@ -9,6 +9,9 @@ import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './search/search.component';
 import { ProductComponent } from './product/product.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     SearchComponent,
     ProductComponent,
-    FooterComponent
+    FooterComponent,
+    ProductListComponent,
+    ProductDetailsComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,

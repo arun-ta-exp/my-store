@@ -8,10 +8,11 @@
             <h5 class="card-title">{{prod.title | uppercase}}</h5>
             <p class="card-text">{{prod.description | uppercase}}</p>
             <p class="card-text">{{prod.price}}</p>
-            <a href="#" class="btn btn-primary mr-1" *ngIf="prod.isAvailable"  (click)="buy()">BUY</a>
-            <a href="#" class="btn btn-primary" *ngIf="prod.isAvailable;else elseblock" (click)="addToCart()">Add to cart</a>
-            <ng-template #elseblock><span class="bg-danger ml-2"><b>SOLD OUT</b></span></ng-template>
+            <a  class="btn btn-primary mr-1" (click)="tocheckOut()">BUY</a>
+            <a  class="btn btn-primary" routerLink="product">Add to cart</a>
+            <!-- <ng-template #elseblock><span class="bg-danger ml-2"><b>SOLD OUT</b></span></ng-template> -->
           </div>
         </div>
       <!-- </div> -->
-      
+      <!-- *ngIf="prod.isAvailable;else elseblock" -->
+      <!-- *ngIf="prod.isAvailable" -->

@@ -1,0 +1,9 @@
+.card a{
+    color: white;
+}
+.card a:hover{
+    background-color: rgb(179, 2, 2);
+    font-weight: bolder;
+    border: none;
+    
+}
